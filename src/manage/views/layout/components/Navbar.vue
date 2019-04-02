@@ -161,6 +161,9 @@ export default {
     }
     .screenfull {
       height: 20px;
+      width: 20px;
+      vertical-align: initial;
+      cursor: pointer;
     }
     .international {
       vertical-align: top;
@@ -176,14 +179,14 @@ export default {
         margin-top: 5px;
         position: relative;
         .user-avatar {
-          width: 40px;
-          height: 40px;
+          width: 20px;
+          height: 20px;
           border-radius: 10px;
         }
         .el-icon-caret-bottom {
           position: absolute;
-          right: -20px;
-          top: 25px;
+          right: -13px;
+          top: 16px;
           font-size: 12px;
         }
       }

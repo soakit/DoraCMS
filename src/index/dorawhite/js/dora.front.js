@@ -208,7 +208,7 @@ var adminLoginVm = avalon.define({
             } else {
                 console.log('全部通过');
                 var params = {
-                    userName: adminLoginVm.userName,
+                    userName: adminLoginVm.userName && adminLoginVm.userName.trim(),
                     password: CryptoJS.MD5('dora' + adminLoginVm.password).toString(),
                     imageCode: adminLoginVm.imageCode
                 }
